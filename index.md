@@ -9,4 +9,4 @@
 - The pre-lander url should contain a parameter: `?clickid=16000760431360657527057280098693807`
 - Example url: https://mypage.com?clickid=16000760431360657527057280098693807
 - Initially CTA button `href` should be equal to "offer", read url parameter with  JavaScript and add it to CTA buttons combined with offer link on button click.
-- Offer link format: https://track.ultravpn.com/5d02892a4faea/click/[add_clickid_value_here]
+- Offer link format: `https://track.ultravpn.com/5d02892a4faea/click/[add_clickid_value_here]`
