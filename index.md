@@ -2,8 +2,8 @@
 
 - Make a simple above-the-fold pre-lander with provided [copy](copy.md)
 - The offer page promotes VPN service on torrent sites
-- Use provided [skeleton](https://pa-adcash.github.io/webmaster/skeleton.html) as base-example, but feel free to use your creativity, rewrite and improve the page for best performance/visual appeal
-- Host the page at your own domain or use free GitHub account (GitHub pages https://docs.github.com/en/github/working-with-github-pages)
+- Use provided [skeleton](skeleton.html) as base-example, but feel free to use your creativity, rewrite and improve the page for best performance/visual appeal
+- Host the page at your own domain or use free GitHub account ([GitHub pages](https://docs.github.com/en/github/working-with-github-pages))
 
 ### JS
 - The pre-lander url should contain a parameter: `?clickid=16000760431360657527057280098693807`
