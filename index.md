@@ -12,7 +12,8 @@
 - [clickid] is a dynamic parameter fetched from page url
 - Your page url should look like: https://mypage.com?clickid=123. (In case of our task, we just type `?clickid=whatever` at the end of your hosted page url)
 - So the offer link will be `https://track.ultravpn.com/5d02892a4faea/click/123` in the end
-- **To summarize:** Your script should read the `?clickid=123` parameter from url, fetch its value (123), and attach it to the end of the offer page link. The link should open in the same window on button click.
+
+**To summarize:** Your script should read the `?clickid=123` parameter from url, fetch its value (123), and attach it to the end of the offer page link. The link should open in the same window on button click.
 
 ### Task repository
 
