@@ -6,10 +6,13 @@
 - Host the page at your own domain or use free GitHub account ([GitHub pages](https://docs.github.com/en/github/working-with-github-pages))
 
 ### JS Part
-- The pre-lander url should contain a parameter: `?clickid=16000760431360657527057280098693807`
-- Example url: https://mypage.com?clickid=16000760431360657527057280098693807
-- Initially CTA button `href` should be equal to "offer", read url parameter with  JavaScript and add it to CTA buttons combined with offer link on button click.
-- Offer link format: `https://track.ultravpn.com/5d02892a4faea/click/[add_clickid_value_here]`
+- Initially: all `href='offer'`
+- When visitor clicks on buttons (`class='btn'` in skeleton) - an offer page should open in the same window using JavaScript.
+- Offer link format: `https://track.ultravpn.com/5d02892a4faea/click/[clickid]`
+- [clickid] is a dynamic parameter fetched from page url
+- Your page url should look like: https://mypage.com?clickid=123. (In case of our task, we just type `?clickid=whatever` at the end of your hosted page url)
+- So the offer link will be `https://track.ultravpn.com/5d02892a4faea/click/123` in the end
+- **To summarize:** Your script should read the `?clickid=123` parameter from url, fetch its value (123), and attach it to the end of the offer page link. The link should open in the same window on button click.
 
 ### Task repository
 
