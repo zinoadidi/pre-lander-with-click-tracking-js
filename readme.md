@@ -23,3 +23,8 @@ Keeping things simple is the watch word for these kinds of pages, hence i made a
 images could be in base64 format or as background images.
 <br/>
 If needed we can have more discussion on this topic to clarify the details.
+
+<br/>
+source code is here >> https://github.com/zinoadidi/pre-lander-with-click-tracking-js
+<br/>
+code is hosted on github pages here >> https://zinoadidi.github.io/pre-lander-with-click-tracking-js/?clickid=123
